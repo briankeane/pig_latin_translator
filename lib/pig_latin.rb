@@ -1,7 +1,7 @@
 require "pig_latin/version"
 
 module PigLatin
-  def translate(input)
+  def self.translate(input)
 
     word_array = input.split(' ')
 
