@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = PigLatin::VERSION
   spec.authors       = ["Brian Keane"]
   spec.email         = ["lonesomewhistle@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Create a pig latin translator.}
+  spec.description   = %q{eatecrae an igpay atinlay anslatortray.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec", "~> 2.14.1"
 end
