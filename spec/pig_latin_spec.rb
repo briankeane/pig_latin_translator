@@ -38,4 +38,9 @@ describe "PigLatin" do
     expect(translate("Bob")).to eq("Obbay")
   end
 
+  it "handles punctuation" do
+    expect(translate("This is cool!")).to eq("Isthay isway oolcay!")
+    expect(translate("Damn, this is complicated!")).to eq("Amnday, isthay isway omplicatedcay!")
+ end
+
 end
